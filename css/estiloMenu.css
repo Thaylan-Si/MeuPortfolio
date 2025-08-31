@@ -1,0 +1,26 @@
+/*--Foi criado um css só para o menu, uma configuranção unica, que foi utilizada em todas as html--*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*--Padronizar o menu--*/
+#menu {
+  background-color: #333; /*--Modelo de cor RGB, dentro no menu--*/
+  padding: 10px; /*--Define o espaçamente ao redor dos links--*/
+  display: flex; /*--Deixar menu mais flexível--*/
+  justify-content: center; /*--Ajustar o alinhamento--*/
+  gap: 20px; /*--definir o espaçamento entre os links--*/
+}
+/*--Selecionar todos os elementos <a> dentro da ID, mais pratico usar assim, pois o css é so para os links--*/
+#menu a {
+  color: white; /* Define a cor do texto dos links como branco */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  padding: 10px 20px; /* Adiciona um espaçamento ao redor dos links*/
+  background-color: #444;
+  border-radius: 5px;
+}
+
+#menu a:hover {
+  background-color: #666; /*--Mudar de cor quando passar o mouse por cima--*/
+}
